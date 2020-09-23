@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Internal-External.InternalOnly">
+    <head>
+        <script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=true;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-XXXXX-Y', 'auto');
+			ga('send', 'pageview');
+		</script>
+    </head>
+    <body>
+        <h1>Cheatsheet for Relationship Tables</h1>
+        <p><b>Description:</b>&#160;A common feature in DITA, Relationship Tables are used to link related Topics. </p>
+        <ul>
+            <li>They can be used in both Print and Web based outputs and will be automatically displayed as either page number references or hyperlinks accordingly<a name="Can_be_inserted_into_topics_"></a></li>
+            <li>Content imported from DITA files with Relationship tables will be maintained</li>
+            <li>You can separate links by type within<a name="_a"></a> a relationship table (e.g., one for "Related Information," one for "Related Tasks," and one for "Reference Materials")</li>
+            <li>Can be inserted into topics via a Relationsips Proxy</li>
+            <li>
+                <MadCap:xref href="../Chapter-3-Topics/Lorem.htm">Lorem</MadCap:xref>
+            </li>
+        </ul>
+        <MadCap:menuProxy style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" MadCap:autonum="• " />
+        <p><b>Requirements:</b>
+        </p>
+        <p><a href="https://help.madcapsoftware.com/flare2019r2/Content/Flare/Step5-Building-Publishing-Output/Salesforce/Salesforce.htm">https://help.madcapsoftware.com/flare2019r2/Content/Flare/Nav-Links/Relationship-Links/Relationship-Tables.htm#microcontent2</a>
+        </p>
+        <p style="font-weight: bold;">Installation:</p>
+        <p style="font-weight: bold;">Workflow:</p>
+        <ul>
+            <li>Right-Click In the Project Organizer, right-click on the Advanced folder and from the context menu select Add Relationship Table.</li>
+            <li><b>Add Rows:</b> Right click within a cell to create links<![CDATA[ 
+                ]]><img src="../Resources/Images/Relationship-Table2.png" /></li>
+            <li><b>Add Columns:</b>
+                <br />
+                <img src="../Resources/Images/Relationship-Table1.png" />
+            </li>
+            <li style="font-weight: normal;"><b>Select Link Types:</b> These can be added to Items, Cells, or Columns<ul><li><p>Source Only: This is a link where the topic in question will have a link to other topics, but other topics will not have a link back to it.</p></li><li><p>Target Only: This is a link where the topic in question will not have a link to other topics, but other topics will have a link back to it.</p></li><li><p>Normal (default): This is a two-way link. In other words, a link will be displayed in each topic involved, and that link will open the other topic.</p></li><li><p>None: This option indicates that the topic reference does not have a link.</p></li><li><p>Use CONREF Target: This uses the conref attribute to pull content. The conref attribute references an ID on content that can be reused. For Flare outputs other than DITA, this option is not supported. For more detailed information about DITA and the conref attribute, please refer to www.oasis-open.org/committees/dita/.</p></li></ul></li>
+            <li style="font-weight: normal;"><b>Group Items: </b>
+                <br />
+            </li>
+        </ul>
+        <p style="font-weight: bold;">Limitations:</p>
+        <p><b>Active Bugs</b>:</p>
+        <p>&#160;</p>
+    </body>
+</html>

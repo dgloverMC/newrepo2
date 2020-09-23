@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div id="textbox">
+            <p class="headerleft">
+                <MadCap:variable name="Global_General.Title" /> | <MadCap:variable name="Global_General.Subtitle" /></p>
+            <p class="headerright"> <MadCap:variable name="Global_General.CompanyName" /> <MadCap:variable name="Global_General.Year" /></p>
+        </div>
+    </body>
+</html>

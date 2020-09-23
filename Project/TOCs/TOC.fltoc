@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" conditions="">
+    <TocEntry Title="[%=System.LinkedTitle%]" StartSection="false" PageNumber="1" PageNumberReset="reset" StartPageLayout="false" PageType="title" PageNumberFormat="lower-roman" PageLayout="/Content/Resources/PageLayouts/Frontmatter.flpgl" Link="/Content/Frontmatter-Topics/Title.htm" BreakType="pageLayout">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-1-Topics/Introduction.htm" StartChapter="true" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" PageNumber="1" PageNumberReset="continue" PageNumberFormat="decimal" ChapterNumberReset="reset" ChapterNumber="1" ChapterNumberFormat="decimal" VolumeNumberReset="same" SectionNumberReset="continue" StartPageLayout="false" StartSection="false" AutoEndOnLeftPage="enabled">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-2-Topics/Savior.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" />
+        </TocEntry>
+        <TocEntry Title="&quot;3. Normalform&quot;/&quot;3rd Normal Form&quot;" Link="/Content/Chapter-2-Topics/Getting-Started.htm" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" PageNumber="1" PageNumberReset="continue" StartPageLayout="false" StartSection="false" AutoEndOnLeftPage="enabled" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="none">
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-3-Topics/Step-1.htm" StartChapter="true" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" PageNumber="1" PageNumberReset="continue" StartSection="false" StartPageLayout="false" AutoEndOnLeftPage="enabled" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-3-Topics/Lorem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-4-Topics/Step-2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-4-Topics/Mauris.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Chapter-5-Topics/Step-3.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" />
+</CatapultToc>

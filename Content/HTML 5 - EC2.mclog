@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadCap Flare 2017 r3 Generated HTML 5 - EC2.fltar" Date="2020-05-27T15:37:20.7156882-04:00">
+    <Messages>Publishing target HTML 5 - EC2...
+Connecting...
+Downloading log ...
+Uploading changed files...
+Uploading csh.js... No such file (code=2)
+Publish failed: No such file (code=2)
+Saving log to "C:\MadCap_Flare_EC2\Output\gmagat\HTML 5 - EC2\HTML 5 - EC2.mclog"
+</Messages>
+    <Warnings />
+    <Errors>
+        <LogEntry File="../../../Project/Destinations/DEV Site.fldes" Message="Publish failed: No such file (code=2)&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Publisher" Target="HTML 5 - EC2" ErrorID="140006" />
+    </Errors>
+</MadCapLog>

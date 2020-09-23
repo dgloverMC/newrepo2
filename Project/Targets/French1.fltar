@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TOC.fltoc"
+  ExcludeUnreferencedContent="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  SearchResultsSkin="/Project/Skins/search.flskn"
+  EquationsOutputType="PNG"
+  MasterPage="/Content/Resources/NewPage.flmsp">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/NewDestination.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+</CatapultTarget>
